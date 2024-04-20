@@ -1,0 +1,33 @@
+PantryList
+--------------
+- id (Primary Key)
+- ingredientName
+- userId (Foreign Key)
+
+
+    PantryList:
+        id: Unique identifier for each ingredient entry
+        ingredientName: Name of the ingredient the user has at home
+        userId: Key linking to the user
+
+        DAO Methods:
+            addIngredient(userId, ingredientName): Adds a new ingredient to PantryList for a user.
+            getUserIngredients(userId): Retrieves all ingredients for a given user.
+            deleteIngredient(ingredientId): Deletes an ingredient entry.
+
+RecipeList
+-------------
+- id (Primary Key)
+- recipeName
+- ingredients
+
+
+    RecipeList:
+        id: Unique identifier for each recipe
+        recipeName: Name of the recipe
+        ingredients: List of ingredients required for the recipe
+
+        DAO Methods:
+            createRecipe(recipeName, ingredients): Creates a new recipe entry
+            getAllRecipes(): Retrieves all available recipes
+            getRecipesByIngredients(PantryList): Retrieves recipes that can be made with current PantryList

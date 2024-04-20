@@ -1,0 +1,10 @@
+ List of APIs todo based on Use-Cases
+
+	/api/userIngredients/:userId: Get all ingredients for a user
+	/api/userIngredients/:userId/add: Add a new ingredient for a user
+	/api/userIngredients/:userId/delete: Delete an ingredient for a user
+
+	/api/recipes/add: Add in a new recipe
+	/api/recipes/delete: Delete a recipe
+	/api/recipes: Get all available recipes
+	/api/recipes/:ingredients: Get recipes that can be made with provided ingredients
