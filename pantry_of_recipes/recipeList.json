@@ -1,0 +1,44 @@
+{
+    "recipeList": {
+    "0": {
+        "name": "Spaghetti Bolognese",
+        "ingredients": [
+        {
+            "itemId": "0",
+            "quantity": 200,
+            "unit": "grams"
+        },
+        {
+            "itemId": "5",
+            "quantity": 3,
+            "unit": "cloves"
+        },
+    {
+            "itemId": "7",
+            "quantity": 500,
+            "unit": "milliliters"
+        }
+        ]
+    },
+    "1": {
+        "name": "Chicken Curry",
+        "ingredients": [
+        {
+            "itemId": "0",
+            "quantity": 400,
+            "unit": "grams"
+        },
+        {
+            "itemId": "10",
+            "quantity": 2,
+            "unit": "cans"
+        },
+        {
+            "itemId": "12",
+            "quantity": 1,
+            "unit": "tablespoon"
+        }
+        ]
+    }
+    }
+}

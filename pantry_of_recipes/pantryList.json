@@ -1,0 +1,19 @@
+{
+    "pantryList": {
+    "0": {
+        "name": "chicken breast",
+        "quantity": 1000,
+        "unit": "grams"
+    },
+    "1": {
+        "name": "rice",
+        "quantity": 1000,
+        "unit": "grams"
+    },
+    "2": {
+        "name": "milk",
+        "quantity": 500,
+        "unit": "milliliters"
+    }
+    }
+}
